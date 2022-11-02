@@ -45,7 +45,7 @@ public class Città
         _nome = nome;
         _sindaco = sindaco;
         capacitàMassima = capacità;
-
+        
     }
 
       
