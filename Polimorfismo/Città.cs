@@ -6,14 +6,16 @@ public class Città
 {
     public string _nome { get; set; }
     public string _sindaco { get; set; }
+    int capacitàMassima { get; set; }
     public int[] _cittadino = new int[10];
     int i = 0;
 
     public Regione regione;
+    
 
     public void addCittadino(Cittadino cittadino)
     {
-        if (i <= 9)
+        if (i < capacitàMassima)
         {
             _cittadino[i] = cittadino._id;
             cittadino.città = this;
@@ -34,11 +36,11 @@ public class Città
         
         
         
-        public Città(string nome,string sindaco)
+        public Città(string nome,string sindaco,int capacità)
     {    
         _nome = nome;
         _sindaco = sindaco;
-        
+        capacitàMassima = capacità;
     }
 
       
