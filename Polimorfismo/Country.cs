@@ -2,8 +2,17 @@
 
 namespace Polimorfismo
 {
-    public class Country : GeographicalArea
+    public class Country : GeographicalArea, IPolitica
+
     {
+        public string _presidente {get; set;}
+        public Regione _regione;
+        public string[] _regionea;
+        public void addRegione(Regione regione)
+        {
+            _regione = regione;
+            _regione.country = this;
+        }
         private string name;
         private string _state;
         private string _government;
@@ -18,7 +27,12 @@ namespace Polimorfismo
         {
 
         }
+        public Country (string Name)
+        {
+            name= Name; 
+        }
         public Country(string Name, string State, string Government, string Constitution)
+
         {
              name = Name;
             _state = State; 
