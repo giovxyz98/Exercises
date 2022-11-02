@@ -12,19 +12,26 @@ public class Città
 
     public Regione regione;
 
-    
+
 
 
     public void addCittadino(Cittadino cittadino)
     {
-        if (i <= capacitàMassima )
-
+        cittadino.dataDiNas();
+        DateTime result = new DateTime();
+        DateTime.TryParse(cittadino.dataDiNascita, out result);
+        if (result.Year <= DateTime.Now.Year - 18)
         {
-            _cittadino[i] = cittadino._id;
-            cittadino.città = this;
-            i += 1;
+            if (i <= capacitàMassima)
+
+            {
+                _cittadino[i] = cittadino._id;
+                cittadino.città = this;
+                i += 1;
+            }
+            else { Console.WriteLine("La città non ammette più cittadini"); }
         }
-        else { Console.WriteLine("La città non ammette più cittadini"); }
+        else Console.WriteLine("Il cittadino ha meno di 18 anni quindi non può entrare");
     }
     public void stampaCittadino()
     {

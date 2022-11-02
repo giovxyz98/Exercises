@@ -29,13 +29,14 @@ namespace Polimorfismo
             Console.WriteLine(Italia._regione._Name);
             Console.WriteLine(lombardia.country.Name);
             Città Milano = new Città("Milano","sindaco",10);
-            Cittadino Mario = new Cittadino("Mario","Rossi","m","19\\12\\1997",189);
+            Cittadino Mario = new Cittadino("Mario","Rossi","m",/*"19\\12\\1997",*/189);
             Milano.addCittadino(Mario);
             Console.WriteLine(Mario.città._nome);
-            Cittadino Luca = new Cittadino("Luca", "Bianchi", "m", "20\\06\\2001",212);
+            Cittadino Luca = new Cittadino("Luca", "Bianchi", "m", /*"20\\06\\2001",*/212);
             Milano.addCittadino(Luca);
             Milano.stampaCittadino();
-            
+            Console.WriteLine(Mario.dataDiNascita);
+           
             
 
         }
