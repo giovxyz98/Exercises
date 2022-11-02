@@ -11,11 +11,14 @@ public class Città
     int i = 0;
 
     public Regione regione;
+
     
+
 
     public void addCittadino(Cittadino cittadino)
     {
-        if (i < capacitàMassima)
+        if (i <= capacitàMassima )
+
         {
             _cittadino[i] = cittadino._id;
             cittadino.città = this;
@@ -36,11 +39,13 @@ public class Città
         
         
         
+
         public Città(string nome,string sindaco,int capacità)
     {    
         _nome = nome;
         _sindaco = sindaco;
         capacitàMassima = capacità;
+
     }
 
       
