@@ -15,7 +15,7 @@ namespace Polimorfismo
         }
 
         public EUCountry(string Name, string State, string Government, string Constitution) :
-            base(Name, State, Government, Constitution) 
+            base(Name)//, State, Government, Constitution) 
         { 
             ConstitutionIntegration();
         }
