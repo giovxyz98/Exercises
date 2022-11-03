@@ -3,6 +3,7 @@ using System.ComponentModel;
 
 using System.Collections.Generic;
 using System.Net.Http.Json;
+using System.Linq;
 
 namespace esercizio_presiti
 {
@@ -28,7 +29,7 @@ namespace esercizio_presiti
     List<int> _cliente=new List<int>();
     public int contaClienti = 0;
     public int prestitiConcessi = 0;
-    List<int>_presiti=new List<int>();  
+    List<int>_prestiti=new List<int>();  
     
     public Banca (string nome)
     {
@@ -54,11 +55,13 @@ namespace esercizio_presiti
     }
     public void stampaPrestiti()
     {
-        Console.WriteLine($"I prestiti concessi dalla banca sono: {prestitiConcessi}");
+        Console.WriteLine($"I prestiti concessi dalla banca sono {prestitiConcessi}:\n");
+        Console.WriteLine(_prestiti);
+
     }
     public void aggiungiPrestito(Prestito prestito)
     {
-        _presiti.Add(prestito._idPrestito);
+        _prestiti.Add(prestito._idPrestito);
         prestitiConcessi++;
     }
 
@@ -99,8 +102,8 @@ public class Prestito
     public string _concessoA { get; set; }
     public void stampaDettagli() 
     {
-        Console.WriteLine($"\nDettagli prestito:\nL'ammontare del prestito è {_ammontare}, rata da pagare: {_rata}\nEmesso da: {_emittente}\nData di erogazione: {_dataInizio}\nData fine: {_dataFine}" +
-            $"\nCodice id prestito: {_idPrestito}\nconcesso a: {_concessoA} n° {_codiceCliente}");
+        Console.WriteLine($"\nDettagli prestito n°{_idPrestito}:\nL'ammontare del prestito è {_ammontare}, rata da pagare: {_rata}\nEmesso da: {_emittente}\nData di erogazione: {_dataInizio}\nData fine: {_dataFine}" +
+            $"\nconcesso a: {_concessoA} n° {_codiceCliente}");
     }
     public Prestito(int ammontare,double rata,DateTime dataDiInizio,DateTime dataFine,int idPrestito,Cliente cliente,Banca emittente)
     {
