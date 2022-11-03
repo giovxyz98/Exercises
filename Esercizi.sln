@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polimorfismo", "Polimorfismo\Polimorfismo.csproj", "{23B1D71A-EB46-485F-9711-76C853E29149}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "esercizio prestiti", "esercizio anagrafica\esercizio prestiti.csproj", "{248BD8A5-BDA0-4C51-8021-ADA1E8343485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "esercizio prestiti", "esercizio prestiti\esercizio prestiti.csproj", "{AC873EC8-8978-4E2D-9923-3FD9C4F6B467}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{23B1D71A-EB46-485F-9711-76C853E29149}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23B1D71A-EB46-485F-9711-76C853E29149}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23B1D71A-EB46-485F-9711-76C853E29149}.Release|Any CPU.Build.0 = Release|Any CPU
-		{248BD8A5-BDA0-4C51-8021-ADA1E8343485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{248BD8A5-BDA0-4C51-8021-ADA1E8343485}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{248BD8A5-BDA0-4C51-8021-ADA1E8343485}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{248BD8A5-BDA0-4C51-8021-ADA1E8343485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC873EC8-8978-4E2D-9923-3FD9C4F6B467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC873EC8-8978-4E2D-9923-3FD9C4F6B467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC873EC8-8978-4E2D-9923-3FD9C4F6B467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC873EC8-8978-4E2D-9923-3FD9C4F6B467}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
