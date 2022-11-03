@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>esercizio_anagrafica</RootNamespace>
+    <RootNamespace>esercizio_prestiti</RootNamespace>
   </PropertyGroup>
 
 </Project>
