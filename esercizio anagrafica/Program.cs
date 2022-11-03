@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Collections.Generic;
 using System.Net.Http.Json;
 
-namespace esercizio_anagrafica
+namespace esercizio_presiti
 {
     internal class Program
     {
