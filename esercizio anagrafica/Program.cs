@@ -17,6 +17,7 @@ namespace esercizio_anagrafica
             cliente1.stampaDettagli();
             prestito1.stampaDettagli();
             IntesaSanPaolo.stampaClienti();
+            IntesaSanPaolo.stampaPrestiti();
 
 
         }
@@ -51,9 +52,9 @@ namespace esercizio_anagrafica
             //else Console.WriteLine("Il cliente non può essere aggiunto");
         
     }
-    public void stampaPresiti()
+    public void stampaPrestiti()
     {
-        Console.WriteLine("I prestiti concessi dalla banca sono:");
+        Console.WriteLine($"I prestiti concessi dalla banca sono: {prestitiConcessi}");
     }
     public void aggiungiPrestito(Prestito prestito)
     {
