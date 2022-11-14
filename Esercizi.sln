@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polimorfismo", "Polimorfismo\Polimorfismo.csproj", "{23B1D71A-EB46-485F-9711-76C853E29149}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "esercizio prestiti", "esercizio prestiti\esercizio prestiti.csproj", "{AC873EC8-8978-4E2D-9923-3FD9C4F6B467}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Musica", "Musica\Musica.csproj", "{FC2DDDEB-F993-4B66-955B-38E52168EDFD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{03A9E693-5F1A-4A67-AC9F-AC190B8206B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "Log\Log.csproj", "{3D707F64-AF73-4268-84F6-5E6C76F16563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log", "Log\Log.csproj", "{3D707F64-AF73-4268-84F6-5E6C76F16563}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Negozio online", "Negozio online\Negozio online.csproj", "{F0652EB4-F703-43C8-9E57-ED775180123F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esercizio Paesi", "Esercizio Paesi\Esercizio Paesi.csproj", "{B4757385-80C6-457A-893C-D66D03296C2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esercizio Dizionari", "Esercizio Dizionari\Esercizio Dizionari.csproj", "{252216A6-03BD-4BAE-B4BB-A3362C612B16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23B1D71A-EB46-485F-9711-76C853E29149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23B1D71A-EB46-485F-9711-76C853E29149}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23B1D71A-EB46-485F-9711-76C853E29149}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23B1D71A-EB46-485F-9711-76C853E29149}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC873EC8-8978-4E2D-9923-3FD9C4F6B467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC873EC8-8978-4E2D-9923-3FD9C4F6B467}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC873EC8-8978-4E2D-9923-3FD9C4F6B467}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +39,18 @@ Global
 		{3D707F64-AF73-4268-84F6-5E6C76F16563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D707F64-AF73-4268-84F6-5E6C76F16563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D707F64-AF73-4268-84F6-5E6C76F16563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0652EB4-F703-43C8-9E57-ED775180123F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0652EB4-F703-43C8-9E57-ED775180123F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0652EB4-F703-43C8-9E57-ED775180123F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0652EB4-F703-43C8-9E57-ED775180123F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4757385-80C6-457A-893C-D66D03296C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4757385-80C6-457A-893C-D66D03296C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4757385-80C6-457A-893C-D66D03296C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4757385-80C6-457A-893C-D66D03296C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{252216A6-03BD-4BAE-B4BB-A3362C612B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252216A6-03BD-4BAE-B4BB-A3362C612B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252216A6-03BD-4BAE-B4BB-A3362C612B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252216A6-03BD-4BAE-B4BB-A3362C612B16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

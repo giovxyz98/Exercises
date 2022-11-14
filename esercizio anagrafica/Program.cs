@@ -1,9 +1,8 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Net.Http.Json;
-using System.Linq;
 
-namespace esercizio_presiti
+namespace esercizio_anagrafica
 {
     internal class Program
     {
@@ -16,7 +15,6 @@ namespace esercizio_presiti
             cliente1.stampaDettagli();
             prestito1.stampaDettagli();
             IntesaSanPaolo.stampaClienti();
-            IntesaSanPaolo.stampaPrestiti();
 
 
         }
