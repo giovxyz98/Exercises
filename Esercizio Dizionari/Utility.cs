@@ -26,7 +26,7 @@ namespace Esercizio_Dizionari
 
                     }
 
-                    else Console.WriteLine("Il codice non è presente all'interno del nostro datatbase, immettere 2 per aggiungerlo");
+                    else Console.WriteLine("Il codice non è presente all'interno del nostro database, immettere 2 per aggiungerlo");
                 }
 
 
