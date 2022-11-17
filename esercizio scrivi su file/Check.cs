@@ -17,15 +17,15 @@ namespace esercizio_scrivi_su_file
         }
         public static string CheckFile(string pathD) 
         {
-            if (!File.Exists(Path.Combine(pathD, "File.txt")))
+            if (!File.Exists(Path.Combine(pathD, "File.csv")))
             {
-                File.AppendAllText(Path.Combine(pathD, "File.txt"), "");
+                File.AppendAllText(Path.Combine(pathD, "File.csv"), "");
             }
 
 
 
 
-            string x = Path.Combine(pathD, "File.txt");
+            string x = Path.Combine(pathD, "File.csv");
             return x;
         }
     }
