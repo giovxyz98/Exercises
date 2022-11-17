@@ -26,7 +26,7 @@ namespace esercizio_scrivi_su_file
                 Menu();
             }
         }
-        static  string FCheck()
+        public static string FCheck()
         {
             string _path = @"C:\Users\Giovanni\Desktop";
             string _dir = Check.CheckDir(_path);

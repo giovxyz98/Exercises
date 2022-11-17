@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esercizio Paesi", "Esercizi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esercizio Dizionari", "Esercizio Dizionari\Esercizio Dizionari.csproj", "{252216A6-03BD-4BAE-B4BB-A3362C612B16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "esercizio scrivi su file", "esercizio scrivi su file\esercizio scrivi su file.csproj", "{9C29CF51-D12E-4E24-B200-90D4A1AABE1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "esercizio scrivi su file", "esercizio scrivi su file\esercizio scrivi su file.csproj", "{9C29CF51-D12E-4E24-B200-90D4A1AABE1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCollection", "GenericCollection\GenericCollection.csproj", "{979B5AAF-061F-4125-BFE2-6A15CFDD8DA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{9C29CF51-D12E-4E24-B200-90D4A1AABE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C29CF51-D12E-4E24-B200-90D4A1AABE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C29CF51-D12E-4E24-B200-90D4A1AABE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979B5AAF-061F-4125-BFE2-6A15CFDD8DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979B5AAF-061F-4125-BFE2-6A15CFDD8DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979B5AAF-061F-4125-BFE2-6A15CFDD8DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979B5AAF-061F-4125-BFE2-6A15CFDD8DA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
