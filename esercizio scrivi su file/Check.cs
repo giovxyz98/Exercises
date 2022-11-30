@@ -21,10 +21,6 @@ namespace esercizio_scrivi_su_file
             {
                 File.AppendAllText(Path.Combine(pathD, "File.csv"), "");
             }
-
-
-
-
             string x = Path.Combine(pathD, "File.csv");
             return x;
         }
