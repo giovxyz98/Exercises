@@ -6,16 +6,16 @@ namespace EsercizioDelegateCeo
     {
         static void Main(string[] args)
         {
+            
             Centralbank._CEO = "Giovanni";   
             CommercialBank commercialBank = new CommercialBank();
-            Console.WriteLine(commercialBank.CEO);
-            commercialBank.CEO = "Roberto";
-            CryptoBank cryptoBank = new CryptoBank();
-            Console.WriteLine(cryptoBank.CEO);
-            cryptoBank.CEO = "Rocco";
-            Console.WriteLine(commercialBank.CEO);
-            Console.WriteLine(cryptoBank.CEO);
+            commercialBank.cambio += new Even(Stampa);
+        
 
+        }
+        public static void Stampa(object obj,Even even)
+        {
+            Console.WriteLine($"Ciao {obj.GetType().Name} il nuovo ceo è {even.newCeo} ");
         }
     }
     

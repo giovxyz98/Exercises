@@ -18,10 +18,7 @@ namespace EsercizioDelegateCeo
     public abstract class Centralbank
     {
         public event Cambio cambio;
-        public void Stampa()
-        {
-            Console.WriteLine($"Ciao {this} il nuovo CEO è {_CEO}");
-        }
+       
         public static string _CEO ;
         public string newCEO;
         public string CEO
@@ -33,11 +30,8 @@ namespace EsercizioDelegateCeo
                 if (_CEO != newCEO)
                 {   
                     _CEO = newCEO;
-                    Even even = new Even(newCEO);
+                   Even even = new Even(newCEO);
                    cambio(this, even);
-        
-                    
-
                 }
             }
 
