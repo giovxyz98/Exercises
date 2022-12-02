@@ -25,12 +25,12 @@ namespace Delegates
    
 
             }
-            static string CheckFile()
-            {
-                var dir = Directory.GetCurrentDirectory();
-                string filePath = dir + "File  n°";
-                return filePath;
-            }
+            //static string CheckFile()
+            //{
+            //    var dir = Directory.GetCurrentDirectory();
+            //    string filePath = dir + "File  n°";
+            //    return filePath;
+            //}
         }
      
         public static class Prova1
