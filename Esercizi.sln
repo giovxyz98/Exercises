@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console test", "Console tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility", "Utility\Utility.csproj", "{3CFB8CA5-A8AD-4908-855F-B14AAC0731B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioDelegateCeo", "EsercizioDelegateCeo\EsercizioDelegateCeo.csproj", "{C3E3EBB2-A1C9-4206-A04D-C277E1962F1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsercizioDelegateCeo", "EsercizioDelegateCeo\EsercizioDelegateCeo.csproj", "{C3E3EBB2-A1C9-4206-A04D-C277E1962F1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "incremento positivi", "incremento positivi\incremento positivi.csproj", "{C85068B9-B7A9-4B30-92B1-7873A4C96E07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{C3E3EBB2-A1C9-4206-A04D-C277E1962F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3E3EBB2-A1C9-4206-A04D-C277E1962F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3E3EBB2-A1C9-4206-A04D-C277E1962F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85068B9-B7A9-4B30-92B1-7873A4C96E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85068B9-B7A9-4B30-92B1-7873A4C96E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85068B9-B7A9-4B30-92B1-7873A4C96E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85068B9-B7A9-4B30-92B1-7873A4C96E07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
