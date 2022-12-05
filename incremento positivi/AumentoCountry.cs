@@ -4,7 +4,7 @@ namespace incremento_positivi
 {
     public class AumentoCountry:EventArgs
     {
-        int Pos;
+       public int Pos;
         public AumentoCountry(int x)
         {
             this.Pos += x;
